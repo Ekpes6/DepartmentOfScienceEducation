@@ -82,7 +82,7 @@
                                                     <div class="form-group">
                                                         <label for="name_of_student" class="col-sm-4 control-label">NAME OF STUDENT</label>
                                                         <div class="col-sm-8">
-                                                            <select class="form-control name_of_student" style="width: 100%;" placeholder="Names of Student">
+                                                            <select class="form-control name_of_student" style="width: 100%;">
                                                                 <option selected>Select here</option>
 
                                                             </select>
@@ -215,7 +215,7 @@
                                                 </div>
                                                 <div class="col-md-2">
                                                     <div class="form-group">
-                                                        <div type="button" class="btn btn-default input_exam_score">
+                                                        <div class="btn btn-default input_exam_score">
                                                             <i class="fa fa-send">Submit</i>
                                                         </div>
                                                     </div>
@@ -235,11 +235,11 @@
                     <div class="box">
                         <div class="box-header with-border">
                             <div class="box-body" >
-                                <div type="button" class="btn btn-warning edit_exam_info" data-toggle="modal" data-target="#modal-edit_student">
+                                <div class="btn btn-warning edit_exam_info" data-toggle="modal" data-target="#modal-edit_student">
                                     <i class="fa fa-pencil"> Edit</i>
                                 </div>
 
-                                <div type="button" class="btn btn-danger remove_ex" data-toggle="modal" data-target="#modal-default0427">
+                                <div class="btn btn-danger remove_ex" data-toggle="modal" data-target="#modal-default0427">
                                     <i class="fa fa-remove"> Delete</i>
                                 </div>
                             </div>
@@ -431,7 +431,7 @@
 
 
                                             <div class="form-group">
-                                                <div type="button" class="col-sm-offset-2 col-sm-10 btn btn-primary pull-right save_edited_examInfo" data-dismiss="modal" href="#">
+                                                <div class="col-sm-offset-2 col-sm-10 btn btn-primary pull-right save_edited_examInfo" data-dismiss="modal">
                                                     <i class="fa fa-save"> Submit</i>
                                                 </div>
                                             </div>
